@@ -1,0 +1,363 @@
+#  _____ _  __  __               _   _   _             _____ _                                _       _     _    _ _____  _                        #
+# |  __ (_)/ _|/ _|             | | | | (_)           / ____| |                              (_)     | |   | |  | |  __ \| |                       #
+# | |__) || |_| |_ __ _ _ __ ___| |_| |_ _   ______  | (___ | |__   __ _ _ __ ___ _ __   ___  _ _ __ | |_  | |  | | |__) | |     ___               # 
+# |  ___/ |  _|  _/ _` | '__/ _ \ __| __| | |______|  \___ \| '_ \ / _` | '__/ _ \ '_ \ / _ \| | '_ \| __| | |  | |  _  /| |    / __|              #
+# | |   | | | | || (_| | | |  __/ |_| |_| |           ____) | | | | (_| | | |  __/ |_) | (_) | | | | | |_  | |__| | | \ \| |____\__ \              #
+# |_|   |_|_| |_| \__,_|_|  \___|\__|\__|_|          |_____/|_| |_|\__,_|_|  \___| .__/ \___/|_|_| |_|\__|  \____/|_|  \_\______|___/              #
+#                                                                               | |                                                                #
+#                                                                               |_|                                                                #
+#                                                                                                                                                  #
+#DECEMBER 2016 - TIP: USE IF BURP INTRUDER!                                                                                                        #
+####################################################################################################################################################
+
+/_layouts/AdminRecycleBin.aspx
+/_layouts/bpcf.aspx
+/_layouts/create.aspx
+/_layouts/listfeed.aspx
+/_layouts/managefeatures.aspx
+/_layouts/mcontent.aspx
+/_layouts/mngsiteadmin.aspx
+/_layouts/mngsubwebs.aspx
+/_layouts/newsbweb.aspx
+/_layouts/PageSettings.aspx
+/_layouts/policy.aspx
+/_layouts/policyconfig.aspx
+/_layouts/policycts.aspx
+/_layouts/Policylist.aspx
+/_layouts/recyclebin.aspx
+/_layouts/settings.aspx
+/_layouts/sitemanager.aspx
+/_layouts/storman.aspx
+/_layouts/vsubwebs.aspx
+/_layouts/wrkmng.aspx
+_admin
+/_admin/_layouts
+/_layouts/listedit.aspx
+/forms/allitems.aspx
+/pages/forms/allitems.aspx
+/_catalogs/
+/_catalogs/lt/
+/_catalogs/masterpage
+/_catalogs/masterpage/forms/allitems.aspx
+/_catalogs/wp/
+/_catalogs/wp/forms/
+/_catalogs/wp/forms/allitems.aspx
+/_catalogs/wt/
+/_layouts/1033
+/_layouts/AreaTemplateSettings.aspx
+/_layouts/ChangeSiteMasterPage.aspx
+/_layouts/images/
+/_layouts/mngctype.aspx
+/_layouts/mngfield.aspx
+_catalogs/lt/forms/allitems.aspx
+/_layouts/help.aspx
+_layouts/help.aspx
+/_layouts/viewlsts.aspx
+/_layouts/mobile/mbllists.aspx
+/_Layouts
+/_Layouts/authenticate.aspx
+/pages/login.aspx
+/_layouts/areanavigationsettings.aspx
+/_layouts/AreaWelcomePage.aspx
+/_layouts/navoptions.aspx
+/_layouts/prjsetng.aspx
+/_layouts/quiklnch.aspx
+/_layouts/themeweb.aspx
+/_layouts/topnav.aspx
+/_layouts/
+/directory/_layouts/
+/pages/default.aspx
+/_layouts/aclinv.aspx
+/_layouts/addrole.aspx
+/_layouts/associatedgroups.aspx
+/_layouts/editgrp.aspx
+/_layouts/editprms.aspx
+/_layouts/groups.aspx
+/_layouts/myinfo.aspx
+/_layouts/MyPage.aspx
+/_layouts/MyTasks.aspx
+/_layouts/newgrp.aspx
+/_layouts/people.aspx
+/_layouts/permsetup.aspx
+/_layouts/picker.aspx
+/_layouts/role.aspx
+/_layouts/user.aspx
+/_layouts/userdisp.aspx
+/_layouts/useredit.aspx
+/_layouts/viewgrouppermissions.aspx
+/_layouts/NewDwp.aspx
+/_layouts/spcf.aspx
+/WPPrevw.aspx
+/_vti_bin/alerts.asmx
+/_vti_bin/copy.asmx
+/_vti_bin/dspsts.asmx
+/_vti_bin/forms.asmx
+/_vti_bin/lists.asmx
+/_vti_bin/people.asmx
+/_vti_bin/Permissions.asmx
+/_vti_bin/search.asmx
+/_vti_bin/sitedata.asmx
+/_vti_bin/sites.asmx
+/_vti_bin/usergroup.asmx
+/_vti_bin/versions.asmx
+/_vti_bin/views.asmx
+/_vti_bin/webpartpages.asmx
+/_vti_bin/webs.asmx
+/_vti_bin/spsdisco.aspx
+/_vti_bin/SharepointEmailWS.asmx
+/_vti_bin/BusinessDataCatalog.asmx
+/_vti_bin/ExcelService.asmx
+/_vti_bin/UserProfileService.asmx
+/_vti_bin/spscrawl.asmx
+/_vti_bin/AreaService.asmx
+/_vti_bin/spsearch.asmx
+/_admin
+adminlayouts
+/_catalogs/lt/forms/allitems.aspx
+/_pages/login.aspx
+
+#######################################################################################################################################################
+
+##     ##    ###    ##    ##    ########  ########    #### ##    ## ######## ######## ########  ########  ######  ######## #### ##    ##  ######   
+###   ###   ## ##    ##  ##     ##     ## ##           ##  ###   ##    ##    ##       ##     ## ##       ##    ##    ##     ##  ###   ## ##    ##  
+#### ####  ##   ##    ####      ##     ## ##           ##  ####  ##    ##    ##       ##     ## ##       ##          ##     ##  ####  ## ##        
+## ### ## ##     ##    ##       ########  ######       ##  ## ## ##    ##    ######   ########  ######    ######     ##     ##  ## ## ## ##   #### 
+##     ## #########    ##       ##     ## ##           ##  ##  ####    ##    ##       ##   ##   ##             ##    ##     ##  ##  #### ##    ##  
+##     ## ##     ##    ##       ##     ## ##           ##  ##   ###    ##    ##       ##    ##  ##       ##    ##    ##     ##  ##   ### ##    ##  
+##     ## ##     ##    ##       ########  ########    #### ##    ##    ##    ######## ##     ## ########  ######     ##    #### ##    ##  ######   
+
+#######################################################################################################################################################
+
+#Recycle bin:
+
+/_layouts/15/AdminRecycleBin.aspx
+
+#Recycle bin:
+
+/_layouts/RecycleBin.aspx
+
+#Recriar o default site sp groups:
+
+_layouts/15/permsetup.aspx
+
+#Carregar documentos da tab inicial
+
+?InitialTabId=Ribbon.Document
+
+#Apagar um usuário do Site collection (on-premises):
+
+/_layouts/15/people.aspx?MembershipGroupId=0
+
+#Mostrar a lista como grid view. ‘True’ em case sensitive:
+
+?ShowInGrid=True
+
+#Configurações rápidas da página :
+
+/_layouts/quiklnch.aspx
+
+#Configurações de navegação :
+
+/_layouts/15/AreaNavigationSettings.aspx
+
+#Sandboxed Solution Gallery:
+
+/_catalogs/solutions/Forms/AllItems.aspx
+
+#Histórico de Workflow:
+
+/lists/Workflow History 
+
+#Filtrar por listas :
+
+?Filter=1
+
+#Dados de uso do site :
+
+/_layouts/usage.aspx 
+
+#Conteúdo e estrutura do site:
+
+/_layouts/sitemanager.aspx
+
+#Configurações do site:
+
+/_layouts/settings.aspx
+
+#Ver todo o conteúdo do site(Site content):
+
+/_layouts/viewlsts.aspx
+
+#Gerenciar as features do site – CASE SENSITIVE:
+
+/_layouts/ManageFeatures.aspx?Scope=Site
+
+#Gerenciar as features do site 2
+
+/_layouts/ManageFeatures.aspx
+
+#Pegar a versão do SharePoint server (Patch level):
+
+ /_vti_pvt/Service.cnf
+
+#Web Part Página de manutenção :
+
+?Contents=1
+
+#Mostrar a página no modo Dialog View:
+
+?isdlg=1
+
+#Registrar apps no SharePoint:
+
+/_layouts/15/appregnew.aspx
+
+#Salvar o site como template:
+
+/_layouts/savetmpl.aspx
+
+#Se loggar com usuário diferente:
+
+/_layouts/closeConnection.aspx?loginasanotheruser=true
+
+#Habilitar o modo designer no SharePoint:
+
+/_layouts/SharePointDesignerSettings.aspx
+
+#Página de Boas Vindas (Default page settings):
+
+/_layouts/AreaWelcomePage.aspx
+
+#Mudar a página Master:
+
+/_layouts/ChangeSiteMasterPage.aspx
+
+#Layouts e Templates:
+
+/_Layouts/AreaTemplateSettings.aspx
+
+#Biblioteca da página Master:
+
+/_catalogs/masterpage/Forms/AllItems.aspx
+
+#Quick Deploy:
+
+Quick%20Deploy%20Items/AllItems.aspx
+ 
+
+#Abrir a página no modo editável:
+
+?ToolPaneView=2
+
+#Página de Taxonomia (MMS):
+
+Lists/TaxonomyHiddenList/AllItems.aspx
+
+#Lista de informações dos usuários:
+
+ _catalogs/users
+
+_catalogs/users/simple.aspx
+
+#Forçar a mostrar o user profile no site:
+
+/_layouts/userdisp.aspx?id={UserID}&Force=True
+
+#Hierarquia do site (lists of sub sites):
+
+/_layouts/vsubwebs.aspx
+
+/_layouts/1033/vsubwebs.aspx
+
+#Ajuda:
+
+/_layouts/help.aspx
+
+#Mobile:
+
+/_layouts/mobile/mbllists.aspx
+
+#Documentos compartilhados:
+
+/shared documents/forms/allitems.aspx
+
+#Estrutura do site e logs:
+
+/_Layouts/SiteManager.aspx?lro=all
+
+#Usuarios e Grupos:
+
+/_layouts/people.aspx
+/_layouts/people.aspx?MembershipGroupId=0
+/_layouts/groups.aspx
+/_layouts/user.aspx
+/_layouts/role.aspx
+
+#Adicionar usuário:
+
+/_layouts/aclinv.aspx
+
+#Procurar no AD:
+
+/_layouts/picker.aspx
+
+#Novo Grupo:
+
+/_layouts/newgrp.aspx
+
+#Create (General):
+
+/_layouts/create.aspx
+
+#Create New SharePoint SubSite:
+
+/_layouts/newsbweb.aspx
+
+#New basic page
+
+/_layouts/bpcf.aspx
+
+#Site Directory Settings:
+
+/_layouts/SiteDirectorySettings.aspx
+
+#Site Collection Policies
+
+/_layouts/Policylist.aspx
+
+
+#Add/Remove Site Collection Administrators:
+
+/_layouts/mngsiteadmin.aspx
+
+#Storage Space Allocation Management
+
+/_layouts/storman.aspx
+
+#Web Services:
+
+/_vti_bin/Admin.asmx
+/_vti_bin/alerts.asmx
+/_vti_bin/people.asmx
+/_vti_bin/Permissions.asmx
+/_vti_bin/Lists.asmx
+/_vti_bin/dspsts.asmx
+/_vti_bin/UserGroup.asmx
+/_vti_bin/webpartpages.asmx
+/_vti_bin/search.asmx
+/_vti_bin/forms.asmx
+/_vti_bin/versions.asmx
+/_vti_bin/webs.asmx
+/_vti_bin/Views.asmx
+/_vti_bin/AreaService.asmx
+/_vti_bin/BusinessDataCatalog.asmx
+/_vti_bin/ExcelService.asmx
+/_vti_bin/SharepointEmailWS.asmx
+/_vti_bin/spscrawl.asmx
+/_vti_bin/spsearch.asmx
+/_vti_bin/UserProfileService.asmx
+/_vti_bin/WebPartPages.asmx
+
+#SharePoint DISCO Web Services List
+
+/_vti_bin/spsdisco.aspx
